@@ -44,4 +44,5 @@ def test_bubble_sort_empty_list():
 def test_bubble_sort_not_integer():
     input_arr = [64, 34, 25, 12, 22, 11, 90, 91, 92, 93]
     expected = 2
-    
+    result = Lab3.bubble_sort(input_arr, Lab3.SORT_DESCENDING)
+    assert(result == expected)
